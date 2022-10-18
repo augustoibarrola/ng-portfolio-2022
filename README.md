@@ -2,4 +2,4 @@
 
 ## TODO
 
-- [ ] Refactor all components + routings for everything. 
+- [ ] Refactor all components + routings for everything. fwd

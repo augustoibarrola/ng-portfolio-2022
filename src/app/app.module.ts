@@ -7,7 +7,6 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { HIGHLIGHT_OPTIONS } from 'ngx-highlightjs';
 import { WelcomeComponent } from './welcome/welcome.component';
-import { NotesRoutingModule } from './notes/notes-routing.module';
 import { HeroesRoutingModule } from './heroes/heroes-routing.module';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { NavPrimeComponent } from './nav-prime/nav-prime.component';
@@ -31,7 +30,6 @@ import { MatListModule } from '@angular/material/list';
     FormsModule, 
     ReactiveFormsModule,
     AppRoutingModule,
-    NotesRoutingModule,
     HeroesRoutingModule,
     NoopAnimationsModule,
     LayoutModule,

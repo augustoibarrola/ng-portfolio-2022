@@ -8,7 +8,6 @@ const routes: Routes = [
   {path:'', redirectTo:'welcome', pathMatch:'full'},
   {path: 'welcome', component: WelcomeComponent},
   {path: 'welcome-test', component: NavPrimeComponent},
-  { path: 'notes', loadChildren: () => import('./notes/notes.module').then(m => m.NotesModule) },
   { path: 'heroes', loadChildren: () => import('./heroes/heroes.module').then(m => m.HeroesModule)},
 ];
 
