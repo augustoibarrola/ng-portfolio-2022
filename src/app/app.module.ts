@@ -7,9 +7,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { HIGHLIGHT_OPTIONS } from 'ngx-highlightjs';
 import { WelcomeComponent } from './welcome/welcome.component';
-import { HeroesRoutingModule } from './heroes/heroes-routing.module';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
-import { NavPrimeComponent } from './nav-prime/nav-prime.component';
 import { LayoutModule } from '@angular/cdk/layout';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
@@ -22,7 +20,6 @@ import { MatListModule } from '@angular/material/list';
   declarations: [
     AppComponent,
     WelcomeComponent,
-    NavPrimeComponent,
   ],
   imports: [
     BrowserModule,
@@ -30,7 +27,6 @@ import { MatListModule } from '@angular/material/list';
     FormsModule, 
     ReactiveFormsModule,
     AppRoutingModule,
-    HeroesRoutingModule,
     NoopAnimationsModule,
     LayoutModule,
     MatToolbarModule,
