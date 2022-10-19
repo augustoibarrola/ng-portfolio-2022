@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule, PreloadAllModules } from '@angular/router'; /* imports RouterModule and Routes give the application routing functionality */
-import { WelcomeComponent } from './welcome/welcome.component';
+import { HomeComponent } from './home/home.component';
 
 
 const routes: Routes = [
-  {path:'', redirectTo:'welcome', pathMatch:'full'},
-  {path: 'welcome', component: WelcomeComponent},
+  {path:'', redirectTo:'/home', pathMatch:'full'},
+  { path: 'home', component: HomeComponent },
 ];
 
 @NgModule({
