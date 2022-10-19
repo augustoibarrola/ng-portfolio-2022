@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../ng-portfolio-2022.wiki"
+		},
+		{
+			"path": "../projects/portfolio-page/portfolio-page"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "portfolio-page"
+	}
+}
