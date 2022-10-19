@@ -14,7 +14,6 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { HomeComponent } from './home/home.component';
-import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { SocialsComponent } from './home/socials/socials.component';
 import { CvComponent } from './home/cv/cv.component';
 
@@ -23,7 +22,6 @@ import { CvComponent } from './home/cv/cv.component';
   declarations: [
     AppComponent,
     HomeComponent,
-    NavBarComponent,
     SocialsComponent,
     CvComponent,
   ],
