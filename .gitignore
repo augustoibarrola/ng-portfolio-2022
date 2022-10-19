@@ -44,3 +44,6 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+#IDE Dev Workstation
+ng-portfolio-2022.code-workspace
